@@ -32,6 +32,7 @@ h5{
 	font-weight: 700;
 	line-height: 20px;
 }
+
 p{
 	font-family: 'Roboto', sans-serif;
 }
@@ -118,9 +119,9 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/001.jpg);
+	background: url(../img/back.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: left center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
@@ -235,16 +236,18 @@ img.edu-img {
 
 img.img-responsive{
 	width: 250px;
-	height: 400px;
 }
 
-#tf-education .thumbnail {
+.align-left{
+	text-align: left;
+}
+
+.thumbnail {
 	background: transparent;
 	border: 0;
 }
 
-#tf-education .thumbnail .caption {
-	padding: 9px;
+.blacktext{
 	color: #000000;
 }
 
@@ -252,9 +255,46 @@ img.img-responsive{
 	color: #000000;
 }
 
-#tf-education .caption {
+.caption {
 	padding: 9px;
 }
+
+.public {
+	width:90%;
+}
+
+.public_img{
+	width: 30%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.public_icon{
+	width: 120px;
+	height: 120px;
+}
+
+
+.public_content{
+	width: 70%;
+	text-align: left;
+}
+
+.author{
+	font-size: 16px;
+	line-height: 18px;
+
+}
+
+.subline{
+	border-top: 2px solid #f2bc76;
+	height: 3px;
+	width: 120px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 10px;
@@ -288,9 +328,6 @@ img.img-responsive{
 	color: #ffffff;
 }
 
-#tf-experience .caption {
-	padding: 9px;
-}
 
 #tf-experience .container{
 	width: 70%;
