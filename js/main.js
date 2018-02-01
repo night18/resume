@@ -257,13 +257,13 @@ function main() {
     anime.timeline({loop: true})
     .add({
       targets: '.button-container .fa-angle-down',
-      translateY:[-30,0],
-      duration:800
+      translateY:[-15,0],
+      duration:600
     })
     .add({
       targets: '.button-container .fa-angle-down',
-      translateY:[0,-30],
-      duration:800
+      translateY:[0,-15],
+      duration:600
     });
 
 
