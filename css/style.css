@@ -211,24 +211,26 @@ font-weight: 900;
 }
 
 a.fa.fa-angle-down {
+	position: absolute;
+	bottom: 7%;
+	left: 49%;
 	padding: 10px 15px;
-	color: #fff;
-	border: 2px solid #b4b4b4;
-	border-radius: 50%;
+	color: #C6DABF;
+	border: 2px solid #C6DABF;
+	border-radius: 30%;
 	font-size: 24px;
-	margin-top: 200px;
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #fcac45;
+	background: #88D498;
 	color: #ffffff;
-	border: 2px solid #fcac45;
+	border: 2px solid #88D498;
 }
 
 a.fa.fa-angle-down:active{
-	background: #c38433;
+	background: #1A936F;
 	color: #ffffff;
-	border: 2px solid #c38433;
+	border: 2px solid #1A936F;
 }
 
 /* About Section */
