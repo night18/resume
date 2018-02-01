@@ -254,6 +254,19 @@ function main() {
       delay: 500
     });
 
+    anime.timeline({loop: true})
+    .add({
+      targets: '.button-container .fa-angle-down',
+      translateY:[-30,0],
+      duration:800
+    })
+    .add({
+      targets: '.button-container .fa-angle-down',
+      translateY:[0,-30],
+      duration:800
+    });
+
+
     // var ml4 = {};
     // ml4.opacityIn = [0,1];
     // ml4.scaleIn = [0.2, 1];
