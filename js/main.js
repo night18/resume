@@ -102,7 +102,221 @@ function main() {
 
     });
 
+    /*====================================
+    Letter Animate
+    ======================================*/
 
+    $('.ml4 .letters').each(function(){
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+
+    anime.timeline({loop: true})
+    .add({
+      targets: '.ml4 .line',
+      scaleY: [0,1],
+      opacity: [0.5,1],
+      easing: "easeOutExpo",
+      duration: 700
+    })
+    .add({
+      targets: '.ml4 .line',
+      translateX: [0,$(".ml4 .letters-1").width()],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100
+    }).add({
+      targets: '.ml4 .letters-1 .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: '-=775',
+      delay: function(el, i) {
+        return 34 * (i+1)
+      }
+    })
+    .add({
+      targets: '.ml4 .letters-1, .ml4 .line',
+      opacity: 0,
+      easing: "easeOutExpo",
+    })
+    .add({
+      targets: '.ml4 .line',
+      scaleY: [0,1],
+      opacity: [0.5,1],
+      easing: "easeOutExpo",
+      duration: 700
+    })
+    .add({
+      targets: '.ml4 .line',
+      translateX: [0,$(".ml4 .letters-2").width()],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100
+    }).add({
+      targets: '.ml4 .letters-2 .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: '-=775',
+      delay: function(el, i) {
+        return 34 * (i+1)
+      }
+    })
+    .add({
+      targets: '.ml4 .letters-2, .ml4 .line',
+      opacity: 0,
+      easing: "easeOutExpo",
+    })
+    .add({
+      targets: '.ml4 .line',
+      scaleY: [0,1],
+      opacity: [0.5,1],
+      easing: "easeOutExpo",
+      duration: 700
+    })
+    .add({
+      targets: '.ml4 .line',
+      translateX: [0,$(".ml4 .letters-3").width()],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100
+    }).add({
+      targets: '.ml4 .letters-3 .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: '-=775',
+      delay: function(el, i) {
+        return 34 * (i+1)
+      }
+    })
+    .add({
+      targets: '.ml4 .letters-3, .ml4 .line',
+      opacity: 0,
+      easing: "easeOutExpo",
+    })
+    .add({
+      targets: '.ml4 .line',
+      scaleY: [0,1],
+      opacity: [0.5,1],
+      easing: "easeOutExpo",
+      duration: 700
+    })
+    .add({
+      targets: '.ml4 .line',
+      translateX: [0,$(".ml4 .letters-4").width()],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100
+    }).add({
+      targets: '.ml4 .letters-4 .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: '-=775',
+      delay: function(el, i) {
+        return 34 * (i+1)
+      }
+    })
+    .add({
+      targets: '.ml4 .letters-4, .ml4 .line',
+      opacity: 0,
+      easing: "easeOutExpo",
+    })
+    .add({
+      targets: '.ml4 .line',
+      scaleY: [0,1],
+      opacity: [0.5,1],
+      easing: "easeOutExpo",
+      duration: 700
+    })
+    .add({
+      targets: '.ml4 .line',
+      translateX: [0,$(".ml4 .letters-5").width()],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100
+    }).add({
+      targets: '.ml4 .letters-5 .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: '-=775',
+      delay: function(el, i) {
+        return 34 * (i+1)
+      }
+    })
+    .add({
+      targets: '.ml4',
+      opacity: 0,
+      duration: 500,
+      easing: "easeOutExpo",
+      delay: 500
+    });
+
+    // var ml4 = {};
+    // ml4.opacityIn = [0,1];
+    // ml4.scaleIn = [0.2, 1];
+    // ml4.scaleOut = 3;
+    // ml4.durationIn = 800;
+    // ml4.durationOut = 600;
+    // ml4.delay = 500;
+
+    // anime.timeline({loop: true})
+    // .add({
+    //   targets: '.ml4 .letters-1',
+    //   opacity: ml4.opacityIn,
+    //   scale: ml4.scaleIn,
+    //   duration: ml4.durationIn
+    // }).add({
+    //   targets: '.ml4 .letters-1',
+    //   opacity: 0,
+    //   scale: ml4.scaleOut,
+    //   duration: ml4.durationOut,
+    //   easing: "easeInExpo",
+    //   delay: ml4.delay
+    // }).add({
+    //   targets: '.ml4 .letters-2',
+    //   opacity: ml4.opacityIn,
+    //   scale: ml4.scaleIn,
+    //   duration: ml4.durationIn
+    // }).add({
+    //   targets: '.ml4 .letters-2',
+    //   opacity: 0,
+    //   scale: ml4.scaleOut,
+    //   duration: ml4.durationOut,
+    //   easing: "easeInExpo",
+    //   delay: ml4.delay
+    // }).add({
+    //   targets: '.ml4 .letters-3',
+    //   opacity: ml4.opacityIn,
+    //   scale: ml4.scaleIn,
+    //   duration: ml4.durationIn
+    // }).add({
+    //   targets: '.ml4 .letters-3',
+    //   opacity: 0,
+    //   scale: ml4.scaleOut,
+    //   duration: ml4.durationOut,
+    //   easing: "easeInExpo",
+    //   delay: ml4.delay
+    // }).add({
+    //   targets: '.ml4 .letters-4',
+    //   opacity: ml4.opacityIn,
+    //   scale: ml4.scaleIn,
+    //   duration: ml4.durationIn
+    // }).add({
+    //   targets: '.ml4 .letters-4',
+    //   opacity: 0,
+    //   scale: ml4.scaleOut,
+    //   duration: ml4.durationOut,
+    //   easing: "easeInExpo",
+    //   delay: ml4.delay
+    // }).add({
+    //   targets: '.ml4',
+    //   opacity: 0,
+    //   duration: 500,
+    //   delay: 500
+    // });
 
 }());
 
