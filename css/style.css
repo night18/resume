@@ -145,6 +145,7 @@ font-weight: 900;
 
 #tf-home .lead{
 	padding-top: 20px;
+	padding-left: 3px;
 	color: #000000;
 	font-family: 'PT Sans', sans-serif;
 	text-transform: none;
@@ -209,6 +210,47 @@ font-weight: 900;
 	text-align: center;
 
 }
+
+ul.head-social li{
+	display: inline-block;
+}
+
+#tf-home i.fab, #tf-home i.fas {
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	/*border: 2px solid #8c8c8c;*/
+	/*font-size: 30px;*/
+	padding: 4px 30px;
+	/*border-radius: 50%;*/
+	transition: all 0.5s;
+  	/*text-shadow: #FFFFFF 0.05em 0.05em 0em;*/
+}
+
+#tf-home  .fa-linkedin {
+	color: #0077B5;
+}
+
+#tf-home  .fa-medium {
+	color: #000000;
+}
+
+#tf-home  .fa-github {
+	color: #000000;
+}
+
+#tf-home  .fa-stack-overflow{
+	color: #f48024;
+}
+
+#tf-home .fa-envelope{
+	color: #33a5e0;
+}
+/*#tf-home i.fab:hover{
+	background: #FCAC45;
+	border-color: #FCAC45;
+	color: #ffffff;
+}*/
 
 a.fa.fa-angle-down {
 	position: absolute;
@@ -667,7 +709,7 @@ nav#footer p{
 	font-size: 12px;
 	margin-top: 10px;
 }
-#footer i.fa {
+#footer i.fab {
 	height: 30px;
 	width: 30px;
 	border: 2px solid #8c8c8c;
@@ -677,7 +719,8 @@ nav#footer p{
 	color: #8c8c8c;
 	transition: all 0.5s;
 }
-#footer i.fa:hover{
+#footer i.fab:hover{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
