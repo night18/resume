@@ -492,7 +492,7 @@ img.img-circle.team-img {
 	color: #ffffff;
 }
 
-#tf-skill i.fa {
+#tf-skill i.fa, #tf-skill i.fab {
 	font-size: 40px;
 	border: 4px solid #FCAC45;
 	width: 100px;
