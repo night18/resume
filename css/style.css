@@ -508,7 +508,7 @@ img.img-circle.team-img {
 	padding: 20px 25px;
 }
 
-#tf-skill .skill:hover>i.fa{
+#tf-skill .skill:hover>i.fa, #tf-skill .skill:hover>i.fab{
 	background: #FCAC45;
 	color: #ffffff;
 }
