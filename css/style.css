@@ -354,6 +354,7 @@ img.img-long {
 
 
 img.img-responsive{
+	max-width: 360px;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -735,4 +736,8 @@ nav#footer p{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
+
+.statcounter{
+	display: none;
 }
