@@ -151,6 +151,25 @@ font-weight: 900;
 	text-transform: none;
 }
 
+@media (max-width: 900px) {
+	#tf-home .lead{
+		display: none;
+	}
+	.topleft {
+		text-align: center;
+		padding-left: 0%;
+	}
+
+	.topleft i {
+		font-size: 28px;
+	}
+
+	.topleft strong {
+		font-size: 24px;
+	}
+
+}
+
 .content{
 	position: relative;
 	padding: 15% 0 0;
