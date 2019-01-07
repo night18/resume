@@ -373,7 +373,7 @@ img.img-long {
 
 
 img.img-responsive{
-	max-width: 360px;
+	max-width: 300px;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -512,12 +512,16 @@ img.img-circle.team-img {
 }
 
 #tf-skill{
-	background: url(../img/05.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #ffffff;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+#tf-skill i{
+	color: #FCAC45;
 }
 
 #tf-skill i.fa, #tf-skill i.fab {
@@ -665,7 +669,9 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #tf-contact{
+	background: url(../img/05.jpg);
 	padding: 80px 0;
+	color: #FFFFFF;
 }
 
 label {
