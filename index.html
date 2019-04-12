@@ -26,8 +26,8 @@
 
     <!-- Stylesheet
     ================================================== -->
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -50,7 +50,7 @@
   <body>
     <!-- Navigation
     ==========================================-->
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top on">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -66,8 +66,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
+            <li><a href="#tf-home" class="page-scroll">About</a></li>
+            <!-- <li><a href="#tf-about" class="page-scroll">About</a></li> -->
             <li><a href="#tf-publication" class="page-scroll">Publication</a></li>
             <li><a href="#tf-experience" class="page-scroll">Experience</a></li>
             <li><a href="#tf-skill" class="page-scroll">Skills</a></li>
@@ -84,8 +84,8 @@
     <div id="tf-home" class="text-center">
         <div class="container">
             <div class="content">
-                <div class="topleft">
-                    <h1><strong><span class="color">Chun-Wei Chiang</span></strong></h1>
+                <div class="center">
+                    <h1><span class="name">Chun-Wei Chiang</span><span class="chinese_name"> 江俊緯 </span></h1>
                     <h2><b><div class="lead">
                             <span class="right_padding"> Ph.D. student and </span>
                             <div class="ml4">
@@ -99,29 +99,40 @@
                             </div> 
                     </div></b></h2>
 
+                    <div class="contact_info">
+                        <span class="email">chiang@chunwei.org</span>
+                        <span class="resume"><a href="">Resume (Download)</a></span>
+                    </div>
+
                     <div>
                         <ul class="head-social">
                             <li><a href="https://www.linkedin.com/in/chiang-chun-wei/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
                             <li><a href="https://medium.com/@warrior.sp" target="_blank"><i class="fab fa-medium fa-2x"></i></a></li>
                             <li><a href="https://stackoverflow.com/users/6069828/chun-wei-chiang" target="_blank"><i class="fab fa-stack-overflow fa-2x"></i></a></li>
                             <li><a href="https://github.com/night18" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
-                            <li><a href="mailto:chunwvu@gmail.com" target="_top"><i class="fas fa-envelope fa-2x"></i></a></li>
+                            <!-- <li><a href="mailto:chunwvu@gmail.com" target="_top"><i class="fas fa-envelope fa-2x"></i></a></li> -->
                         </ul>
                     </div>
                     
-
-                    
                 </div>
             </div>
-            <div class="button-container">
-                        <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+        </div>
+        <div class="about">
+            <div class="section-title center">
+                <h2><strong>About</strong></h2>
+                <div class="line">
+                </div>
             </div>
+            Welcome, my name is Chun-Wei Chiang. I am a Ph.D. student in <strong>Computer Science</strong> at <strong>West Virginia University</strong>. I am working as an graduate researcher in <a href="https://humancomputerinteraction.wvu.edu/">HCI@WVU Lab</a>. I have been working in software development since 2012 in Android and web development with the experience across the finance and education. My research involves the areas of: <strong>Blockchain and Smart contract, Crowdsourcing</strong> <!-- <a target="_blank" href="https://campuse.ro/events/campus-party-mexico-2017/talk/introduction-to-blockchain-and-applications-for-paisanos-with-international-remittances/">[Talk]</a>--><strong> and Application design & development </strong>.
+        </div>
+        <div class="button-container">
+            <a href="#tf-publication" class="fa fa-angle-down page-scroll"></a>
         </div>
     </div>
 
     <!-- About Us Page
     ==========================================-->
-    <div id="tf-about">
+<!--     <div id="tf-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -134,8 +145,8 @@
                             <hr>
                             <div class="clearfix"></div>
                         </div>
-                        <p class="intro">Welcome, my name is Chun-Wei Chiang. I am a Ph.D. student in <strong>Computer Science</strong> at <strong>West Virginia University</strong>. I am working as an graduate researcher in <a href="https://humancomputerinteraction.wvu.edu/">HCI@WVU Lab</a>. I have been working in software development since 2012 in Android and web development with the experience across the finance and education. My research involves the areas of: <strong>Blockchain and Smart contract, Crowdsourcing</strong> <!-- <a target="_blank" href="https://campuse.ro/events/campus-party-mexico-2017/talk/introduction-to-blockchain-and-applications-for-paisanos-with-international-remittances/">[Talk]</a>--><strong> and Application design & development </strong>. </p>
-                        <!-- <ul class="about-list">
+                        <p class="intro">Welcome, my name is Chun-Wei Chiang. I am a Ph.D. student in <strong>Computer Science</strong> at <strong>West Virginia University</strong>. I am working as an graduate researcher in <a href="https://humancomputerinteraction.wvu.edu/">HCI@WVU Lab</a>. I have been working in software development since 2012 in Android and web development with the experience across the finance and education. My research involves the areas of: <strong>Blockchain and Smart contract, Crowdsourcing</strong>  <a target="_blank" href="https://campuse.ro/events/campus-party-mexico-2017/talk/introduction-to-blockchain-and-applications-for-paisanos-with-international-remittances/">[Talk]</a><strong> and Application design & development </strong>. </p>
+                        <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
                                 <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
@@ -148,120 +159,190 @@
                                 <span class="fa fa-dot-circle-o"></span>
                                 <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
                             </li>
-                        </ul> -->
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
      <!-- Publication Page
     ==========================================-->
     <div id="tf-publication" class="text-center">     
         <div class="container">
             <div class="section-title center">
-                <h2><strong>Publication</strong></h2>
+                <h2><strong>Publications</strong></h2>
                 <div class="line">
                 </div>
             </div>
 
-            <div id="paper">
-                <div class="row">
-                    <div class="item">
-                        <div class="thumbnail">
-                            <h3>Research papers</h3>
-                                <table class="public">
-                                    <tr>
-                                        <td class="public_img">
-                                            <img src="img/publication/crowdcoach.png" class="public_icon">
-                                        </td>
-                                        <td class="public_content">
-                                            <b>Crowd Coach: Peer Coaching for Crowd Workers' Skill Growth</b><br>
-                                            <div class="author"><b>Chun-Wei Chiang</b>,  Anna Kasunic, Saiph Savage<br>
-                                            CSCW: ACM Conference on Computer-Supported Cooperative Work 2018
-                                            <br>
-                                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Crowd+Coach%3A+Peer+Coaching+for+Crowd+Workers%27+Skill+Growth&btnG=" target="_blank">[google scholar]</a>
-                                            <a href="https://arxiv.org/pdf/1811.05364.pdf" target="_blank">[pdf]</a>
-                                            <a href="https://drive.google.com/file/d/1uITe5G8-_xJFMeYOKC55_TbV4DtG4Ami/view?usp=sharing" target="_blank">[talk]</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="public_img">
-                                            <img src="img/publication/bitcoin-network.png" class="public_icon">
-                                        </td>
-                                        <td class="public_content">
-                                            <b>Exploring Blockchain for Trustful Collaborations between Immigrants and Governments</b><br>
-                                            <div class="author"><b>Chun-Wei Chiang</b>, Eber Betanzos, Saiph Savage <br>
-                                            CHI: ACM Conference on Human Factors in Computing Systems 2018
-                                            <br>
-                                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Exploring+Blockchain+for+Trustful+Collaborations+between+Immigrants+and+Governments&btnG=" target="_blank">[google scholar]</a>
-                                            <a href="https://arxiv.org/pdf/1805.01512.pdf" target="_blank">[pdf]</a>
-                                            <a href="https://docs.google.com/presentation/d/1ZE4jcija7bB95EPIxAMs7EtRhTMdZXa_xD15MAIAYTg/edit?usp=sharing" target="_blank">[talk]</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="public_img">
-                                            <img src="img/publication/curriculum.png" class="public_icon">
-                                        </td>
-                                        <td class="public_content">
-                                            <b>Crowd Work on a CV? Understanding How AMT Fits into Turkers' Career Goals and Professional Profiles</b><br>
-                                            <div class="author">Anna Kasunic, <b>Chun Wei Chiang</b>, Geoff Kaufman, Saiph Savage<br>
-                                            CI: ACM Collective Intelligence Conference 2018
-                                            <br>
-                                            <a href="#" target="_blank">[google scholar]</a>
-                                            <a href="https://www.researchgate.net/publication/327731597_Crowd_Work_on_a_CV_Understanding_How_AMT_Fits_into_Turkers'_Career_Goals_and_Professional_Profiles" target="_blank">[pdf]</a>
-                                            <a href="https://drive.google.com/open?id=19absfqXsQJc78ZiluUOIPvEOCW6N7Yfx" target="_blank">[talk]</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="public_img">
-                                            <img src="img/publication/bitcoin.png" class="public_icon">
-                                        </td>
-                                        <td class="public_content">
-                                            <b>Designing Blockchain Technology to Transform Rural Communities</b><br>
-                                            <div class="author"><b>Chun-Wei Chiang</b>, Eber Betanzos, Michael Austin, Saiph Savage <br>
-                                            Workshop CHI: ACM Conference on Human Factors in Computing Systems 2018
-                                            <br>
-                                            <a href="https://www.hciforblockchain.org/wp-content/uploads/sites/25/2018/04/Chiang.pdf" target="_blank">[pdf]</a>
-                                            <a href="https://docs.google.com/presentation/d/1ZE4jcija7bB95EPIxAMs7EtRhTMdZXa_xD15MAIAYTg/edit?usp=sharing" target="_blank">[talk]</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="public_img">
-                                            <img src="img/publication/migra.png" class="public_icon">
-                                        </td>
-                                        <td class="public_content">
-                                            <b>Understanding Interface Design and Mobile Money Perceptions in Latin America</b><br>
-                                            <div class="author"><b>Chun-Wei Chiang</b>, Caroline Anderson, Claudia Flores Saviaga, Eduardo Jr Arenas, Felipe Colin, Mario Romero, Cuauhtemoc Rivera-Loaiza, Norma Elva Chavez and Saiph Savage <br>
-                                            Latin American Conference on Human-Computer Interaction 2017
-                                            <br>
-                                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Understanding+Interface+Design+and+Mobile+Money+Perceptions+in+Latin+America&btnG=" target="_blank">[google scholar]</a>
-                                            <a href="http://saviaga.com/wp-content/uploads/2017/11/clihc_2017_paper_19.pdf" target="_blank">[pdf]</a>
-                                            <a href="https://docs.google.com/presentation/d/1nTIVvB30BGshkEEvhQGEnakr4i-A6l_XOOK_XaqSswo/edit?usp=sharing" target="_blank">[talk]</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-
-                                </table>
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/script.png" class="public_icon">
                         </div>
-                    </div>
-                    <!-- <div class="subline">
-                        
-                    </div>
-                    <div class="item">
-                        <div class="thumbnail">
-                            <h3>Talk</h3>
-                            <div class="col-sm-6 col-md-3 col-lg-3">
-                                
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            Turker Tales: Integrating Tangential Play into Crowd Work
+                            <div class="author">Anna Kasunic, <b>Chun Wei Chiang</b>, Geoff Kaufman, Saiph Savage<br>
+                            DIS: ACM Conference on Designing Interactive Systems 2019
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="#" target="_blank">[google scholar]</a>
+                            <a href="#" target="_blank">[pdf]</a>
+                            <a href="#" target="_blank">[talk]</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/search.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            TurkScanner: Predicting the Hourly Wage of Microtasks
+                            <div class="author">Susumu Saito, <b>Chun-Wei Chiang</b>, Saiph Savage, Jeffrey Bigham <br>
+                            WWW: The Web Conference 2019
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=TurkScanner%3A+Predicting+the+Hourly+Wage+of+Microtasks&btnG=" target="_blank">[google scholar]</a>
+                            <a href="https://arxiv.org/pdf/1903.07032.pdf" target="_blank">[pdf]</a>
+                            <!-- <a href="https://drive.google.com/file/d/1uITe5G8-_xJFMeYOKC55_TbV4DtG4Ami/view?usp=sharing" target="_blank">[talk]</a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/together.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            Crowd Coach: Peer Coaching for Crowd Workers' Skill Growth
+                            <div class="author"><b>Chun-Wei Chiang</b>,  Anna Kasunic, Saiph Savage<br>
+                    CSCW: ACM Conference on Computer-Supported Cooperative Work 2018
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Crowd+Coach%3A+Peer+Coaching+for+Crowd+Workers%27+Skill+Growth&btnG=" target="_blank">[google scholar]</a>
+                            <a href="https://arxiv.org/pdf/1811.05364.pdf" target="_blank">[pdf]</a>
+                            <a href="https://drive.google.com/file/d/1uITe5G8-_xJFMeYOKC55_TbV4DtG4Ami/view?usp=sharing" target="_blank">[talk]</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/bitcoin-network.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            Exploring Blockchain for Trustful Collaborations between Immigrants and Governments
+                            <div class="author"><b>Chun-Wei Chiang</b>, Eber Betanzos, Saiph Savage <br>
+                                            CHI: ACM Conference on Human Factors in Computing Systems 2018
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Exploring+Blockchain+for+Trustful+Collaborations+between+Immigrants+and+Governments&btnG=" target="_blank">[google scholar]</a>
+                            <a href="https://arxiv.org/pdf/1805.01512.pdf" target="_blank">[pdf]</a>
+                            <a href="https://docs.google.com/presentation/d/1ZE4jcija7bB95EPIxAMs7EtRhTMdZXa_xD15MAIAYTg/edit?usp=sharing" target="_blank">[talk]</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/curriculum.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            Crowd Work on a CV? Understanding How AMT Fits into Turkers' Career Goals and Professional Profiles
+                            <div class="author">Anna Kasunic, <b>Chun Wei Chiang</b>, Geoff Kaufman, Saiph Savage<br>
+                                            CI: ACM Collective Intelligence Conference 2018
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Crowd+Work+on+a+CV%3F+Understanding+How+AMT+Fits+into+Turkers%27+Career+Goals+and+Professional+Profiles&btnG=" target="_blank">[google scholar]</a>
+                            <a href="https://arxiv.org/pdf/1902.05361.pdf" target="_blank">[pdf]</a>
+                            <a href="https://drive.google.com/open?id=19absfqXsQJc78ZiluUOIPvEOCW6N7Yfx" target="_blank">[talk]</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/bitcoin.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            Designing Blockchain Technology to Transform Rural Communities
+                            <div class="author"><b>Chun-Wei Chiang</b>, Eber Betanzos, Michael Austin, Saiph Savage <br>
+                                            Workshop CHI: ACM Conference on Human Factors in Computing Systems 2018
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://www.hciforblockchain.org/wp-content/uploads/sites/25/2018/04/Chiang.pdf" target="_blank">[pdf]</a>
+                            <a href="https://docs.google.com/presentation/d/1ZE4jcija7bB95EPIxAMs7EtRhTMdZXa_xD15MAIAYTg/edit?usp=sharing" target="_blank">[talk]</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/migra.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            Understanding Interface Design and Mobile Money Perceptions in Latin America
+                            <div class="author"><b>Chun-Wei Chiang</b>, Caroline Anderson, Claudia Flores Saviaga, Eduardo Jr Arenas, Felipe Colin, Mario Romero, Cuauhtemoc Rivera-Loaiza, Norma Elva Chavez and Saiph Savage <br>
+                            Workshop CHI: ACM Conference on Human Factors in Computing Systems 2018
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=Understanding+Interface+Design+and+Mobile+Money+Perceptions+in+Latin+America&btnG=" target="_blank">[google scholar]</a>
+                            <a href="http://saviaga.com/wp-content/uploads/2017/11/clihc_2017_paper_19.pdf" target="_blank">[pdf]</a>
+                            <a href="https://docs.google.com/presentation/d/1nTIVvB30BGshkEEvhQGEnakr4i-A6l_XOOK_XaqSswo/edit?usp=sharing" target="_blank">[talk]</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -340,7 +421,7 @@
                 <div class="line">
                 </div>
                 <div class="clearfix"></div>
-                <em>The <strong>programing lanugage</strong> I have learned</em>
+                <!-- <em>The <strong>programing lanugage</strong> I have learned</em> -->
             </div>
             <div class="space"></div>
             <div class="row">
@@ -500,7 +581,7 @@
                         </div>
                     </div>
                 </div>
-
+<!-- 
                 <div class="col-sm-6 col-md-3 col-lg-3 web">
                     <div class="portfolio-item">
                         <div class="hover-bg">
@@ -514,7 +595,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-sm-6 col-md-3 col-lg-3 web">
                     <div class="portfolio-item">
@@ -632,7 +713,7 @@
     <nav id="footer">
         <div class="container">
             <div class="pull-left fnav">
-                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2018. Designed by <a href="#">Chun-Wei Chiang</a> and updated on Jan 7, 2019</p>
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2018. Designed by <a href="#">Chun-Wei Chiang</a> and updated on April 12, 2019</p>
             </div>
             <div class="pull-right fnav">
                 <ul class="footer-social">
