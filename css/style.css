@@ -49,6 +49,11 @@ p.intro{
 	line-height: 30px;
 	font-family: 'Raleway', sans-serif;
 }
+
+.red{
+	color: #34AE92;
+}
+
 a{ color: #02ae93;}
 a:hover,
 a:focus{
@@ -860,5 +865,32 @@ nav#footer p{
 }
 
 .statcounter{
+	display: none;
+}
+
+/*Loading*/
+svg {
+  position: absolute;
+  width: 240px;
+  height: 120px;
+  top: 0; right: 0;
+  bottom: 0; left: 0; 
+  margin: auto;
+}
+.credit {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.credit a {
+  color: #FDB515;
+  font: 800 75% "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.loading-hide{
 	display: none;
 }

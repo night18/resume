@@ -9,6 +9,7 @@ function main() {
 (function () {
    'use strict';
 
+
    /* ==============================================
   	Testimonial Slider
   	=============================================== */ 
@@ -44,6 +45,8 @@ function main() {
     })
 
   	$(document).ready(function() {
+      $('.preload').addClass('loading-hide')
+      $('.main-content').removeClass('loading-hide')
 
   	  $("#clients").owlCarousel({
   	 

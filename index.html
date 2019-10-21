@@ -48,7 +48,70 @@
     <![endif]-->
   </head>
   <body>
-    <!-- Navigation
+    <div class="preload">
+        <svg version="1.1" id="preloader" x="0px" y="0px" width="240px" height="120px" viewBox="0 0 240 120">
+
+    <style type="text/css" >
+        <![CDATA[
+
+            #plug,
+            #socket { fill:#FDB515 }
+
+            #loop-normal { fill: none; stroke: #FDB515; stroke-width: 12 }
+            #loop-offset { display: none }
+
+        ]]>
+    </style>
+
+    <path id="loop-normal" class="st1" d="M120.5,60.5L146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
+    L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0z">
+        <animate attributeName="stroke-dasharray" attributeType="XML"
+            from="500, 50"  to="450 50"
+            begin="0s" dur="2s"
+            repeatCount="indefinite"/>
+        <animate attributeName="stroke-dashoffset" attributeType="XML"
+            from="-40"  to="-540"
+            begin="0s" dur="2s"
+            repeatCount="indefinite"/>  
+    </path>
+      
+    <path id="loop-offset" d="M146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
+    L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0L120.5,60.5
+    L146.48,87.02z"/>
+      
+    <path id="socket" d="M7.5,0c0,8.28-6.72,15-15,15l0-30C0.78-15,7.5-8.28,7.5,0z"/>  
+      
+    <path id="plug" d="M0,9l15,0l0-5H0v-8.5l15,0l0-5H0V-15c-8.29,0-15,6.71-15,15c0,8.28,6.71,15,15,15V9z"/>
+      
+    <animateMotion
+        xlink:href="#plug"
+        dur="2s"
+        rotate="auto"
+        repeatCount="indefinite"
+        calcMode="linear"
+        keyTimes="0;1"    
+        keySplines="0.42, 0, 0.58, 1">
+        <mpath xlink:href="#loop-normal"/>
+    </animateMotion>
+      
+    <animateMotion             
+        xlink:href="#socket"
+        dur="2s"
+        rotate="auto"
+        repeatCount="indefinite"
+        calcMode="linear"
+        keyTimes="0;1"
+        keySplines="0.42, 0, 0.58, 1">
+        <mpath xlink:href="#loop-offset"/>
+    </animateMotion>  
+    </svg>
+    <div class="credit">
+      Loading...
+    </div>
+    </div>
+
+    <div class="main-content loading-hide">
+        <!-- Navigation
     ==========================================-->
     <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top on">
       <div class="container">
@@ -71,7 +134,7 @@
             <li><a href="#tf-publication" class="page-scroll">Publication</a></li>
             <li><a href="#tf-experience" class="page-scroll">Experience</a></li>
             <li><a href="#tf-skill" class="page-scroll">Skills</a></li>
-            <li><a href="#tf-portfolio" class="page-scroll">Portfolio</a></li>
+            <!-- <li><a href="#tf-portfolio" class="page-scroll">Portfolio</a></li> -->
             <li><a href="#tf-education" class="page-scroll">Education</a></li>
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
           </ul>
@@ -181,6 +244,55 @@
                 <div class="card">
                     <div class="row">
                         <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/search.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            TurkScanner: Predicting the Hourly Wage of Microtasks
+                            <div class="author">Susumu Saito, <b>Chun-Wei Chiang</b>, Saiph Savage, Jeffrey Bigham <br>
+                            WWW: The Web Conference 2019<br>
+                            <strong class="red">Best Poster Honourable Mention (0.8%)</strong>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=TurkScanner%3A+Predicting+the+Hourly+Wage+of+Microtasks&btnG=" target="_blank">[google scholar]</a>
+                            <a href="https://arxiv.org/pdf/1903.07032.pdf" target="_blank">[pdf]</a>
+                            <!-- <a href="https://drive.google.com/file/d/1uITe5G8-_xJFMeYOKC55_TbV4DtG4Ami/view?usp=sharing" target="_blank">[talk]</a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
+                            <img src="img/publication/halving.png" class="public_icon">
+                        </div>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
+                            The Challenges and Trends of Deploying Blockchain in the Real World for the Users’ Need
+                            <div class="author"><b>Chun-Wei Chiang</b>, Eber Betanzos, Saiph Savage<br>
+                            Journal of Cyberspace Studies<br>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
+                            <!-- <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=TurkScanner%3A+Predicting+the+Hourly+Wage+of+Microtasks&btnG=" target="_blank">[google scholar]</a> -->
+                            <a href="https://jcss.ut.ac.ir/article_72454.html" target="_blank">[article]</a>
+                            <!-- <a href="https://drive.google.com/file/d/1uITe5G8-_xJFMeYOKC55_TbV4DtG4Ami/view?usp=sharing" target="_blank">[talk]</a> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
                             <img src="img/publication/script.png" class="public_icon">
                         </div>
                         <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
@@ -192,33 +304,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
-                            <a href="#" target="_blank">[google scholar]</a>
-                            <a href="#" target="_blank">[pdf]</a>
-                            <a href="#" target="_blank">[talk]</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 thumbnail">
-                            <img src="img/publication/search.png" class="public_icon">
-                        </div>
-                        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 publication">
-                            TurkScanner: Predicting the Hourly Wage of Microtasks
-                            <div class="author">Susumu Saito, <b>Chun-Wei Chiang</b>, Saiph Savage, Jeffrey Bigham <br>
-                            WWW: The Web Conference 2019
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-lg-12 col-xl-12 box-urls">
-                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C49&q=TurkScanner%3A+Predicting+the+Hourly+Wage+of+Microtasks&btnG=" target="_blank">[google scholar]</a>
-                            <a href="https://arxiv.org/pdf/1903.07032.pdf" target="_blank">[pdf]</a>
-                            <!-- <a href="https://drive.google.com/file/d/1uITe5G8-_xJFMeYOKC55_TbV4DtG4Ami/view?usp=sharing" target="_blank">[talk]</a> -->
+                            <a href="https://dl.acm.org/citation.cfm?id=3322359" target="_blank">[google scholar]</a>
+                            <!-- <a href="#" target="_blank">[pdf]</a> -->
                         </div>
                     </div>
 
@@ -469,9 +556,9 @@
     
     <!-- Portfolio Section
     ==========================================-->
-    <div id="tf-portfolio">
+    <!-- <div id="tf-portfolio">
     <div class="overlay">
-        <div class="container"> <!-- Container -->
+        <div class="container">
             <div class="section-title text-center center">
                 <h2><strong>Portfolio</strong></h2>
                 <div class="line">  
@@ -593,21 +680,6 @@
                         </div>
                     </div>
                 </div>
-<!-- 
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="https://www.hypseducation.com/">
-                                <div class="hover-text">
-                                    <h4>HYPS education official website</h4>
-                                    <small>website</small>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <img src="img/portfolio/07.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="col-sm-6 col-md-3 col-lg-3 web">
                     <div class="portfolio-item">
@@ -628,10 +700,8 @@
         </div>
         </div>
     </div>
-
-    
-
-    
+ -->
+       
 
     <!-- Education Page
     ==========================================-->
@@ -738,6 +808,8 @@
             </div>
         </div>
     </nav>
+    </div>
+    
 
     <!-- Default Statcounter code for Resume
     https://chunwei.org/ -->
