@@ -124,7 +124,7 @@ a:focus{
 	position: absolute;
 	right: 0;
 	height: 100vh;
-	background: #FAFAFA;
+	background: #e5e5e5;
 	border-left: 1px solid #DBDBDB;
 	overflow: auto;
 	/*scroll-behavior: smooth;*/
@@ -265,6 +265,7 @@ ul.head-social li{
 .section{
 	padding: 0px 12% 30px 12%;
 	max-height: 100%;
+	width: 100%;
 }
 
 .section:nth-child(1) {
@@ -414,5 +415,11 @@ img.vertical{
 
 	.section:nth-child(1) {
 		padding-top: 0;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+	    max-width: 100%;
 	}
 }
