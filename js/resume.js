@@ -4,19 +4,24 @@ function main() {
 	'use strict';
 
 	$('a.page-scroll').click(function() {
-		let $main_content = $('#main-content')
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[id=' + this.hash.slice(1) +']');
-      console.log( target.offset().top)
-      if (target.length) {
-        $main_content.animate({
-          scrollTop: target.offset().top - $main_content.position().top + $main_content.scrollTop() - 40
-        }, 900);
-        return false;
-      }
-    }
-  });
+		if (window.innerWidth <= 992){
+			let $main_content = $('#block-container')	
+		}else{
+			let $main_content = $('#main-content')
+		}
+		
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[id=' + this.hash.slice(1) +']');
+	      console.log( target.offset().top)
+	      if (target.length) {
+	        $main_content.animate({
+	          scrollTop: target.offset().top - $main_content.position().top + $main_content.scrollTop() - 40
+	        }, 900);
+	        return false;
+	      }
+	    }
+  	});
 
 	$(document).ready(function() {
 		
