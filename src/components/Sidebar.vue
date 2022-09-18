@@ -1,0 +1,167 @@
+<template>
+  <img
+    class="logo"
+    src="@/assets/me/me.jpg"
+    width="250"
+  />
+  <h1 class="en_name name">Chun-Wei Chiang</h1>
+  <h1 class="zh_name name">江俊緯</h1>
+  <h2 class="title">
+    Ph.D. Student <br>
+    at Purdue University
+  </h2>
+  <div class="contact-info">
+    <p>
+      <font-awesome-icon icon="fa-solid fa-paper-plane"/>
+      <a href="mailto:chiang@chunwei.org">chiang@chunwei.org</a>
+    </p>
+    <p>
+      <font-awesome-icon icon="fa-solid fa-download"/>
+      <a href="ChunWeiResume.pdf" target="_blank" download>Résumé</a>
+    </p>
+    <ul class="head-social">
+      <li v-for="site in social">
+        <a :href="site.url" target="_blank" :class="site.icon">
+          <span v-if="site.fontawesom">
+            <font-awesome-icon class="icon" :icon="site.icon"/>
+          </span>
+          <span v-else>
+            <img :src='site.icon' class="icon" />
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <p class="footer">Updated on {{update_date}}</p>
+</template>
+<script >
+import { update_date } from '@/components/constants'
+export default {
+  data: function () {
+    return {
+      update_date: update_date,
+      social: [
+        {
+          'name': 'LinkedIn',
+          'url': 'https://www.linkedin.com/in/chiang-chun-wei/',
+          'class': 'fa-linkedin',
+          'icon': 'fa-brands fa-linkedin',
+          'fontawesom': true
+        },
+        {
+          'name': 'Github',
+          'url': 'https://github.com/night18',
+          'class': 'fa-github',
+          'icon': 'fa-brands fa-github',
+          'fontawesom': true
+        },
+        {
+          'name': 'Google Scholar',
+          'url': 'https://scholar.google.com/citations?user=jErIu9UAAAAJ&hl=en',
+          'class': 'fa-gscholar',
+          'icon': '/scholar.svg',
+          'fontawesom': false
+        }
+      ]
+    }
+  }
+  // <font-awesome-icon icon="fa-brands fa-linkedin" />
+  // a href="https://www.linkedin.com/in/chiang-chun-wei/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+}
+</script>
+<style scoped>
+  .logo {
+    display: block;
+    margin: 10px auto 20px auto;
+  }
+
+  .name{
+  color: #000000;
+  font-size: 1.5em;
+  }
+
+  .en_name{
+    font-family: 'Merienda', cursive;
+  }
+
+  .zh_name{
+    font-family: 'WCL', sans-serif;
+  }
+
+  .title{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px auto;
+    color: #000000;
+    font-size: 1.1em;
+  }
+
+  a {
+    margin-left: 10px;
+  }
+
+  .head-social{
+    margin: 5px auto;
+    padding: 0px;
+  }
+
+  ul.head-social li{
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    vertical-align: bottom;
+  }
+
+  .head-social .icon{
+    height: 32px;
+    width: 32px;
+    font-size: 32px;
+    margin: 0 auto;
+    transition: all 0.5s;
+    line-height: 40px !important;
+  }
+
+  /*Social media color*/
+  .fa-linkedin {
+    color: #0077B5;
+  }
+
+  .fa-medium {
+    color: #000000;
+  }
+
+  .fa-github {
+    color: #000000;
+  }
+
+  .fa-stack-overflow{
+    color: #f48024;
+  }
+
+  .fa-gscholar{
+    color: #4284F4;
+  }
+
+  .fa-twitter{
+    color: #38A1F3;
+  }
+
+  .fa-envelope{
+    color: #33a5e0;
+  }
+  /*End social media color*/
+
+  .footer {
+      display: none;
+    }
+
+  @media (min-width: 1024px) {
+    .footer {
+      display: block;
+      width: 100%;
+      background: #E5E5E5;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+</style>
