@@ -54,8 +54,8 @@ export default {
 
   button {
     text-align: left;
-    color: var(--color-text);
-    background: var(--color-background);
+    color: #000000;
+    background: #ffffff;
     padding: 0;
     line-height: 1.6;
     font-size: 18px;

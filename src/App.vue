@@ -39,7 +39,7 @@ export default {
 </script>
 <style scoped>
   header {
-    background: var(--color-background);
+    background: #FFFFFF;
     line-height: 1.5;
     padding-top: 60px;
     text-align: center;
