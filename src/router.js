@@ -13,7 +13,12 @@ const routes = [
     path: '/Publications',
     name: 'Publications',
     component: Publications
-  }
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: '404',
+    component: Home
+  },
 ]
 
 
