@@ -5,7 +5,7 @@
   </p>
   <b-row v-for="(job, j_index) in jobs" class='row'>
     <b-col cols=2 style="text-align: center; margin: auto;">
-      <img :src="'../' + job.src">
+      <img :src="job.src">
     </b-col>
     <b-col cols=10 style="margin: auto;">
       <strong>{{job.name}}</strong>,<span class="location">{{job.location}}</span>

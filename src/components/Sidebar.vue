@@ -17,7 +17,7 @@
     </p>
     <p>
       <font-awesome-icon icon="fa-solid fa-download"/>
-      <a href="../ChunWeiResume.pdf" target="_blank" download>Résumé</a>
+      <a href="ChunWeiResume.pdf" target="_blank" download>Résumé</a>
     </p>
     <ul class="head-social">
       <li v-for="site in social">

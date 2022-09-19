@@ -39,8 +39,8 @@ import { papers } from '@/components/constants'
 export default {
   data: function () {
     return {
-      icon_folder: '../paper-icons/',
-      pdf_folder: '../papers/'
+      icon_folder: 'paper-icons/',
+      pdf_folder: 'papers/'
     }
   },
   methods: {
