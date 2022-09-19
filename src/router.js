@@ -13,17 +13,12 @@ const routes = [
     path: '/Publications',
     name: 'Publications',
     component: Publications
-  },
-  {
-    path: '/:catchAll(.*)',
-    name: '404',
-    component: Home
-  },
+  }
 ]
 
 
 const router = new createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/index.html'),
   routes
 })
 

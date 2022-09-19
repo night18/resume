@@ -1,20 +1,20 @@
 <template>
   <b-navbar id="navbar" toggleable="lg">
-    <b-navbar-brand @click="go_home">
+    <b-navbar-brand @click.prevent="go_home">
       <img src="/favicon.svg" style="width: 30px;">
     </b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="align-right">
-        <b-nav-item @click="go_home">Home</b-nav-item>
-        <b-nav-item @click="go_publications">Publications</b-nav-item>
+        <b-nav-item @click.prevent="go_home">Home</b-nav-item>
+        <b-nav-item @click.prevent="go_publications">Publications</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
   <header>
     <Sidebar/>
   </header>
-  <main>
+  <main ref="main">
     <router-view/>
   </main>
 </template>
@@ -34,7 +34,14 @@ export default {
     go_publications: function () {
       this.$router.push('/Publications');
     },
-  }
+  },
+  watch: {
+  '$route' () {
+     this.$nextTick(() => {
+        this.$refs.main.scrollIntoView();
+      })
+   }
+},
 }
 </script>
 <style scoped>
@@ -43,6 +50,7 @@ export default {
     line-height: 1.5;
     padding-top: 60px;
     text-align: center;
+    position: relative;
   }
 
   main {

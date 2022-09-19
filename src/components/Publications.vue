@@ -42,7 +42,7 @@
     </b-col>
   </b-row>
   <p>
-    <a @click="go_home" class="more_url">Back to Home ...</a>
+    <a @click.prevent="go_home" class="more_url">Back to Home ...</a>
   </p>
 </template>
 <script>
@@ -51,8 +51,8 @@ export default {
   data: function () {
     return {
       select_index: 0,
-      icon_folder: 'paper-icons/',
-      pdf_folder: 'papers/',
+      icon_folder: '../paper-icons/',
+      pdf_folder: '../papers/',
       papers: papers
     }
   },

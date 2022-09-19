@@ -5,7 +5,7 @@
   </p>
   <b-row v-for="degree in degrees" class='row'>
     <b-col cols=2 style="text-align: center; margin: auto;">
-      <img :src="degree.src">
+      <img :src="'../'+ degree.src">
     </b-col>
     <b-col cols=10 style="margin: auto;">
       <strong>{{degree.name}}</strong>,<span class="location">{{degree.location}}</span>
