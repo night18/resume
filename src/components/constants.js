@@ -41,7 +41,7 @@ export const jobs = [
         'start_year': '2022',
         'end_year': 'Current',
         'duty': [
-          'Conductempirical studiesto assess users\' behavior and trust in machine learning models in real-world scenarios',
+          'Conduct empirical studies to assess users\' behavior and trust in machine learning models in real-world scenarios',
           'Design and assess different mechanisms (e.g., model transparency and interactive user tutorial) to help people work with AI appropriately and fairly.',
           'Build web applications through vue.js and Django and deploy them on AWS for online empirical studies.'
         ]
