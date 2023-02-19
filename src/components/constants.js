@@ -32,24 +32,42 @@ export const degrees = [
 
 export const jobs = [
   {
+    'name': 'Honda Research Institute',
+    'location': 'Ann Arbor, MI',
+    'src': 'HRI.jpeg',
+    'positions': [
+      {
+        'title': 'Research Intern',
+        'start_year': '2023 January',
+        'end_year': 'Current',
+        'duty': [
+          'Synthesized a wide range of research studies to better understand how drivers feel when interacting with autonomous vehicles and what factors contribute to those emotions.',
+          'Design and plan an experiment to investigate how to improve driver\'s collaboration with autonomous vehicles and other drivers to achieve optimal driving safety and performance.'
+        ]
+      }
+    ]
+
+  },
+  {
     'name': 'Purdue University',
     'location': 'West Lafayette, IN',
     'src': 'Purdue.png',
     'positions': [
       {
         'title': 'Graduate Research Assistant',
-        'start_year': '2022',
+        'start_year': 'May 2022',
         'end_year': 'Current',
         'duty': [
-          'Conduct empirical studies to assess users\' behavior and trust in machine learning models in real-world scenarios',
-          'Design and assess different mechanisms (e.g., model transparency and interactive user tutorial) to help people work with AI appropriately and fairly.',
-          'Build web applications through vue.js and Django and deploy them on AWS for online empirical studies.'
+          'Designed and executed large-scale human subject empirical studies to understand the difference in human interaction and perception of the AI model between groups of users and individual users from the aspects of performance and fairness.',
+          'Conduct experiments to explore the effect of AI literacy and model transparency on improving laypeople\'s appropriate reliance and understanding of AI assistant tools  understanding of ML and appropriate usage of the machine learning model.',
+          'Developed a web application implemented with Vue.js and Django and deployed it on AWS elastic beanstalk to collect data for the experiment.',
+          'Designed a machine learning based content searching tool, which allows users to input a sentence to find the most relevant scientific paper, using triplet model and advanced natural language models, such as Sentence-Bert and T5. '
         ]
       },
       {
         'title': 'Graduate Teaching Assistant',
-        'start_year': '2020',
-        'end_year': '2022',
+        'start_year': 'January 2020',
+        'end_year': 'May 2022',
         'duty': [
           'Led multiple undergraduate lab courses for class: CS 251: Data structure and Algorithms (2022 Spring), CS 242: Introduction to Data Science (2021 Fall), and CS 180: Problem Solving And Object-Oriented Programming (2020 Fall, 2021 Spring)',
           'Coached two undergraduate teaching assistants to propose and develop class projects by Java and JUnit.'
@@ -65,12 +83,11 @@ export const jobs = [
     'positions': [
       {
         'title': 'NLP Intern',
-        'start_year': '2022 June',
-        'end_year': '2022 August',
+        'start_year': 'June 2022',
+        'end_year': 'August 2022',
         'duty': [
-          'Integrated GPT-3 and recommendation algorithm to implement a Google Chrome extension to recommend products and flight tickets based on the users\' YouTube videos browse history.',
-          'Collaborate with teams to complete an online research tool through the latest NLP algorithms to support users in summarizing long documents, translating foreign documents, and semantic searching when they use the Internet.',
-          'Research and reform the limitations of the latest NLP algorithms to better fit real-world settings.'
+          'Developed a dynamic knowledge base for machine learning models, integrating a search engine and a pre-trained language model, such as GPT-3, to enable the model to answer the question based on the latest information from the internet.',
+          'Created recommendation systems for products and flight tickets based on users\' YouTube watch history, as well as for food and restaurants based on users\' previous orders'
         ]
       }
     ]
@@ -82,11 +99,11 @@ export const jobs = [
     'positions': [
       {
         'title': 'Co-founder',
-        'start_year': '2019 January',
-        'end_year': '2019 December',
+        'start_year': 'January 2019',
+        'end_year': 'December 2019',
         'duty': [
-          'Proposed and developed decentralized Oracle service providing reliable off-chain data to the smart contracts on blockchains',
-          'Promoted the company to potential investors and raised more than $50,000 from accelerators.'
+          'Proposed and developed a decentralized Oracle service that provides reliable off-chain data to smart contracts on blockchains.',
+          'Promoted the company to potential investors and successfully raised over $50,000 from accelerators.'
         ]
       }
     ]
@@ -98,8 +115,8 @@ export const jobs = [
     'positions': [
       {
         'title': 'WebMaster',
-        'start_year': '2018',
-        'end_year': '2019',
+        'start_year': 'August 2018',
+        'end_year': 'July 2019',
         'duty': [
           'Designed and Maintained the official website for the organization.',
           'Organized and gave a speech in a workshop to teach participants how to build Android application.'
@@ -114,8 +131,8 @@ export const jobs = [
     'positions': [
       {
         'title': 'Teaching Assistant',
-        'start_year': '2019 August',
-        'end_year': '2019 December',
+        'start_year': 'August 2019',
+        'end_year': 'December 2019',
         'duty': [
           'Assisted faculty members with classroom instruction material and exams for courses: CS 453: Data and Computer Communications and CS 220: Discrete Mathematics.'
         ]
@@ -143,7 +160,7 @@ export const jobs = [
         'start_year': '2018',
         'end_year': '2018',
         'duty': [
-          'Develop an Initial Coin Offer (ICO) Governance application on Ethereum using web3.py to connect the blockchain network to the local server and allow users to monitorthe ICO on the blockchain network through theserver.'
+          'Developed an Initial Coin Offer (ICO) Governance application on Ethereum using web3.py to connect the blockchain network to the local server and allow users to monitor the ICO on the blockchain network through the server.'
         ]
       }
     ]
@@ -169,6 +186,22 @@ export const jobs = [
 ]
 
 export const papers = [
+  {
+    'title': 'Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment',
+    'authors': ['Chun-Wei Chiang', 'Zhuoran Lu', 'Zhuoyan Li', 'Ming Yin'],
+    'abbreviation': 'CHI',
+    'full_publisher': 'Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems',
+    'publish_year': '2023',
+    'href': '',
+    'src': 'group-AI.png',
+    'areas': ['Human AI interaction', 'Bias in Machine learning', 'Group AI In Interaction', 'Human Computer Interaction']
+    // 'supplementary': [
+    //   {
+    //     'key': 'supplementary materials',
+    //     'href': 'machine-learning-literacy-supplementary.pdf'
+    //   }
+    // ]
+  },
   {
     'title': 'Exploring the Effects of Machine Learning Literacy Interventions on Laypeople’s Reliance on Machine Learning Models',
     'authors': ['Chun-Wei Chiang','Ming Yin'],
