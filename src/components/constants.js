@@ -1,4 +1,4 @@
-export const update_date = "September 18, 2022"
+export const update_date = "Febuary 18, 2022"
 
 export const degrees = [
   {
