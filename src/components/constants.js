@@ -1,4 +1,19 @@
-export const update_date = "Febuary 18, 2022"
+export const update_date = "May 13, 2023"
+
+export const news = [
+  {
+    'title': 'At CHI\'23, held in Hamburg, Germany, I presented our research on the contrasting ways in which groups of people and individuals interact with AI assistant tools.',
+    'date': '2023/4/25'
+  },
+  {
+    'title': 'I was awarded travel support by the Gary Marsden Travel Award.',
+    'date': '2023/4/9'
+  },
+  {
+    'title': 'I started my research internship position at the Honda Research Institute.',
+    'date': '2023/1/24'
+  },
+]
 
 export const degrees = [
   {
@@ -32,23 +47,6 @@ export const degrees = [
 
 export const jobs = [
   {
-    'name': 'Honda Research Institute',
-    'location': 'Ann Arbor, MI',
-    'src': 'HRI.jpeg',
-    'positions': [
-      {
-        'title': 'Research Intern',
-        'start_year': '2023 January',
-        'end_year': 'Current',
-        'duty': [
-          'Synthesized a wide range of research studies to better understand how drivers feel when interacting with autonomous vehicles and what factors contribute to those emotions.',
-          'Design and plan an experiment to investigate how to improve driver\'s collaboration with autonomous vehicles and other drivers to achieve optimal driving safety and performance.'
-        ]
-      }
-    ]
-
-  },
-  {
     'name': 'Purdue University',
     'location': 'West Lafayette, IN',
     'src': 'Purdue.png',
@@ -73,6 +71,22 @@ export const jobs = [
           'Coached two undergraduate teaching assistants to propose and develop class projects by Java and JUnit.'
         ]
       },
+    ]
+  },
+  {
+    'name': 'Honda Research Institute',
+    'location': 'Ann Arbor, MI',
+    'src': 'HRI.jpeg',
+    'positions': [
+      {
+        'title': 'Research Intern',
+        'start_year': '2023 January',
+        'end_year': '2023 May',
+        'duty': [
+          'Synthesized a wide range of research studies to better understand how drivers feel when interacting with autonomous vehicles and what factors contribute to those emotions.',
+          'Design and plan an experiment to investigate how to improve driver\'s collaboration with autonomous vehicles and other drivers to achieve optimal driving safety and performance.'
+        ]
+      }
     ]
 
   },
@@ -192,15 +206,15 @@ export const papers = [
     'abbreviation': 'CHI',
     'full_publisher': 'Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems',
     'publish_year': '2023',
-    'href': '',
+    'href': 'group-AI-interaction.pdf',
     'src': 'group-AI.png',
-    'areas': ['Human AI interaction', 'Bias in Machine learning', 'Group AI In Interaction', 'Human Computer Interaction']
-    // 'supplementary': [
-    //   {
-    //     'key': 'supplementary materials',
-    //     'href': 'machine-learning-literacy-supplementary.pdf'
-    //   }
-    // ]
+    'areas': ['Human AI interaction', 'Bias in Machine learning', 'Group AI In Interaction', 'Human Computer Interaction'],
+    'supplementary': [
+      {
+        'key': 'supplementary materials',
+        'href': 'group-AI-interaction-supplementary.pdf'
+      }
+    ]
   },
   {
     'title': 'Exploring the Effects of Machine Learning Literacy Interventions on Laypeople’s Reliance on Machine Learning Models',
