@@ -12,11 +12,11 @@
   </h2>
   <div class="contact-info">
     <p>
-      <font-awesome-icon icon="fa-solid fa-paper-plane"/>
+      <font-awesome-icon icon="fa-solid fa-paper-plane" class="bigger_icon"/>
       <a href="mailto:chiang@chunwei.org">chiang@chunwei.org</a>
     </p>
     <p>
-      <font-awesome-icon icon="fa-solid fa-download"/>
+      <font-awesome-icon icon="fa-solid fa-download" class="bigger_icon"/>
       <a href="ChunWeiResume.pdf" target="_blank" download>Résumé</a>
     </p>
     <ul class="head-social">
@@ -98,8 +98,8 @@ export default {
     font-size: 1.1em;
   }
 
-  a {
-    margin-left: 10px;
+  .bigger_icon {
+    margin-right: 10px;
   }
 
   .head-social{
@@ -156,6 +156,7 @@ export default {
 
   .footer {
       display: none;
+      font-size: 10px;
     }
 
   @media (min-width: 1024px) {
