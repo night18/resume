@@ -1,6 +1,10 @@
-export const update_date = "May 13, 2023"
+export const update_date = "Oct 26, 2023"
 
 export const news = [
+  {
+    'title': 'I started my applied scientist internship position at the Twitch.',
+    'date': '2023/1/24'
+  },
   {
     'title': 'At CHI\'23, held in Hamburg, Germany, I presented our research on the contrasting ways in which groups of people and individuals interact with AI assistant tools.',
     'date': '2023/4/25'
@@ -8,10 +12,6 @@ export const news = [
   {
     'title': 'I was awarded travel support by the Gary Marsden Travel Award.',
     'date': '2023/4/9'
-  },
-  {
-    'title': 'I started my research internship position at the Honda Research Institute.',
-    'date': '2023/1/24'
   },
 ]
 
@@ -72,6 +72,23 @@ export const jobs = [
         ]
       },
     ]
+  },
+  {
+    'name': 'Twitch',
+    'location': 'San Francisco, CA',
+    'src': 'twitch.png',
+    'positions': [
+      {
+        'title': 'Applied Scientist Intern',
+        'start_year': '2023 June',
+        'end_year': '2023 Aiugust',
+        'duty': [
+          'Crafted and implemented an innovative sequential-based collaborative filtering algorithm to optimize item recommendations for Twitch users, resulting in a notable 15% increase in precision.',
+          'Performed in-depth competitive analysis, evaluating various training data sets and recommendation practices, facilitating data-driven decision-making and optimization of the recommendation algorithm.'
+        ]
+      }
+    ]
+
   },
   {
     'name': 'Honda Research Institute',
@@ -217,6 +234,16 @@ export const papers = [
     ]
   },
   {
+    'title': 'Strategic Adversarial Attacks in AI-assisted Decision Making to Reduce Human Trust and Reliance',
+    'authors': ['Zhuoyan Li', 'Zhuoran Lu', 'Chun-Wei Chiang', 'Ming Yin'],
+    'abbreviation': 'IJCAI',
+    'full_publisher': 'Proceedings of the Thirth-Second International Joint Conference on Artificial Intelligence',
+    'publish_year': '2023',
+    'href': 'attack.pdf',
+    'src': 'attack.png',
+    'areas': ['Human AI interaction', 'Adversarial Attacks']
+  },
+  {
     'title': 'Exploring the Effects of Machine Learning Literacy Interventions on Laypeople’s Reliance on Machine Learning Models',
     'authors': ['Chun-Wei Chiang','Ming Yin'],
     'abbreviation': 'IUI',
@@ -224,7 +251,7 @@ export const papers = [
     'publish_year': '2022',
     'href': 'machine-learning-literacy.pdf',
     'src': 'online-learning.png',
-    'areas': ['Human AI interaction', 'Bias in Machine learning', 'User training', 'Human Computer Interaction'],
+    'areas': ['Human AI Interaction', 'Bias in Machine learning', 'User training', 'Human Computer Interaction'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -240,7 +267,7 @@ export const papers = [
     'publish_year': '2021',
     'href': 'better-stop.pdf',
     'src': 'stop.png',
-    'areas': ['Human AI interaction', 'Human Computer Interaction', 'Bias in Machine learning']
+    'areas': ['Human AI Interaction', 'Human Computer Interaction', 'Bias in Machine learning']
   },
   {
     'title': 'Becoming the Super Turker: Increasing Wages via a Transparency Criteria from Skilled Workers',
