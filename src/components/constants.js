@@ -1,17 +1,18 @@
+/* eslint-disable prettier/prettier */
 export const update_date = "Oct 26, 2023"
 
 export const news = [
   {
+    'title': 'Our paper is accepted by IUI 2024.',
+    'date': '2023/02/06'
+  },
+  {
     'title': 'I started my applied scientist internship position at the Twitch.',
-    'date': '2023/1/24'
+    'date': '2023/06/01'
   },
   {
     'title': 'At CHI\'23, held in Hamburg, Germany, I presented our research on the contrasting ways in which groups of people and individuals interact with AI assistant tools.',
-    'date': '2023/4/25'
-  },
-  {
-    'title': 'I was awarded travel support by the Gary Marsden Travel Award.',
-    'date': '2023/4/9'
+    'date': '2023/04/25'
   },
 ]
 
