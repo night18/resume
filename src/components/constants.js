@@ -226,7 +226,7 @@ export const papers = [
     'publish_year': '2023',
     'href': 'group-AI-interaction.pdf',
     'src': 'group-AI.png',
-    'areas': ['Human AI interaction', 'Bias in Machine learning', 'Group AI In Interaction', 'Human Computer Interaction'],
+    'areas': ['Human AI Interaction'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -242,7 +242,7 @@ export const papers = [
     'publish_year': '2023',
     'href': 'attack.pdf',
     'src': 'attack.png',
-    'areas': ['Human AI interaction', 'Adversarial Attacks']
+    'areas': ['Human AI Interaction']
   },
   {
     'title': 'Exploring the Effects of Machine Learning Literacy Interventions on Laypeople’s Reliance on Machine Learning Models',
@@ -252,7 +252,7 @@ export const papers = [
     'publish_year': '2022',
     'href': 'machine-learning-literacy.pdf',
     'src': 'online-learning.png',
-    'areas': ['Human AI Interaction', 'Bias in Machine learning', 'User training', 'Human Computer Interaction'],
+    'areas': ['Human AI Interaction'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -268,7 +268,7 @@ export const papers = [
     'publish_year': '2021',
     'href': 'better-stop.pdf',
     'src': 'stop.png',
-    'areas': ['Human AI Interaction', 'Human Computer Interaction', 'Bias in Machine learning']
+    'areas': ['Human AI Interaction']
   },
   {
     'title': 'Becoming the Super Turker: Increasing Wages via a Transparency Criteria from Skilled Workers',
@@ -278,7 +278,7 @@ export const papers = [
     'publish_year': '2020',
     'href': 'super-turker.pdf',
     'src': 'businessman.png',
-    'areas': ['Crowd worker welfare', 'User training']
+    'areas': ['Crowd worker welfare']
   },
   {
     'title': 'Predicting the Working Time of Microtasks Based on Workers\' Perception of Prediction Errors',
@@ -329,7 +329,7 @@ export const papers = [
     'publish_year': '2018',
     'href': 'crowdcoach.pdf',
     'src': 'together.png',
-    'areas': ['Crowd worker welfare', 'User training']
+    'areas': ['Crowd worker welfare']
   },
   {
     'title': 'Crowd Work on a CV? Understanding How AMT Fits into Turkers\' Career Goals and Professional Profiles',
@@ -365,7 +365,7 @@ export const papers = [
     'publish_year': '2017',
     'href': 'mobile-money.pdf',
     'src': 'migra.png',
-    'areas': ['Human Computer Interaction'] 
+    'areas': ['User Inbterface Design'] 
   },
 ]
 
