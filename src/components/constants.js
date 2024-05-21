@@ -1,18 +1,18 @@
 /* eslint-disable prettier/prettier */
-export const update_date = "Oct 26, 2023"
+export const update_date = "May 21, 2024"
 
 export const news = [
   {
-    'title': 'Our paper is accepted by IUI 2024.',
-    'date': '2023/02/06'
+    'title': 'At IUI\'24, held in Greenville, SC, I presented our research on using Large Language Models to help groups better utilize AI assistance.',
+    'date': '2024/03/19'
+  },
+  {
+    'title': 'I passed the Ph.D. preliminary exam and became a Ph.D. candidate at Purdue University.',
+    'date': '2024/01/08'
   },
   {
     'title': 'I started my applied scientist internship position at the Twitch.',
     'date': '2023/06/01'
-  },
-  {
-    'title': 'At CHI\'23, held in Hamburg, Germany, I presented our research on the contrasting ways in which groups of people and individuals interact with AI assistant tools.',
-    'date': '2023/04/25'
   },
 ]
 
@@ -218,6 +218,22 @@ export const jobs = [
 ]
 
 export const papers = [
+  {
+    'title': 'Enhancing AI-Assisted Group Decision Making through LLM-Powered Devil\'s Advocate',
+    'authors': ['Chun-Wei Chiang', 'Zhuoran Lu', 'Zhuoyan Li', 'Ming Yin'],
+    'abbreviation': 'CHI',
+    'full_publisher': 'Proceedings of the 29th International Conference on Intelligent User Interfaces}',
+    'publish_year': '2024',
+    'href': 'Devils_Advocate.pdf',
+    'src': 'devil.png',
+    'areas': ['Human AI Interaction'],
+    'supplementary': [
+      {
+        'key': 'supplementary materials',
+        'href': 'Devils_Advocate_supplementary.pdf'
+      }
+    ]
+  },
   {
     'title': 'Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment',
     'authors': ['Chun-Wei Chiang', 'Zhuoran Lu', 'Zhuoyan Li', 'Ming Yin'],
