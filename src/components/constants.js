@@ -221,8 +221,8 @@ export const papers = [
   {
     'title': 'Enhancing AI-Assisted Group Decision Making through LLM-Powered Devil\'s Advocate',
     'authors': ['Chun-Wei Chiang', 'Zhuoran Lu', 'Zhuoyan Li', 'Ming Yin'],
-    'abbreviation': 'CHI',
-    'full_publisher': 'Proceedings of the 29th International Conference on Intelligent User Interfaces}',
+    'abbreviation': 'IUI',
+    'full_publisher': 'Proceedings of the 29th International Conference on Intelligent User Interfaces',
     'publish_year': '2024',
     'href': 'Devils_Advocate.pdf',
     'src': 'devil.png',
