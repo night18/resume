@@ -81,8 +81,8 @@ export const jobs = [
     'positions': [
       {
         'title': 'Applied Scientist Intern',
-        'start_year': '2023 June',
-        'end_year': '2023 Aiugust',
+        'start_year': 'June 2023',
+        'end_year': 'August 2023',
         'duty': [
           'Crafted and implemented an innovative sequential-based collaborative filtering algorithm to optimize item recommendations for Twitch users, resulting in a notable 15% increase in precision.',
           'Performed in-depth competitive analysis, evaluating various training data sets and recommendation practices, facilitating data-driven decision-making and optimization of the recommendation algorithm.'
@@ -98,8 +98,8 @@ export const jobs = [
     'positions': [
       {
         'title': 'Research Intern',
-        'start_year': '2023 January',
-        'end_year': '2023 May',
+        'start_year': 'January 2023',
+        'end_year': 'May 2023',
         'duty': [
           'Synthesized a wide range of research studies to better understand how drivers feel when interacting with autonomous vehicles and what factors contribute to those emotions.',
           'Design and plan an experiment to investigate how to improve driver\'s collaboration with autonomous vehicles and other drivers to achieve optimal driving safety and performance.'
@@ -171,8 +171,8 @@ export const jobs = [
       },
       {
         'title': 'Research Assistant',
-        'start_year': '2017',
-        'end_year': '2019',
+        'start_year': 'January 2017',
+        'end_year': 'July 2019',
         'duty': [
           'Develop a budget supervision system through blockchain technology to encourage citizens involving in community development with local government.',
           'Design and implement a chrome plugin to train crowd workers to speed 31.6% up to their work.',
