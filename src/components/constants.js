@@ -1,17 +1,18 @@
-export const update_date = "Oct 26, 2023"
+/* eslint-disable prettier/prettier */
+export const update_date = "May 21, 2024"
 
 export const news = [
   {
+    'title': 'At IUI\'24, held in Greenville, SC, I presented our research on using Large Language Models to help groups better utilize AI assistance.',
+    'date': '2024/03/19'
+  },
+  {
+    'title': 'I passed the Ph.D. preliminary exam and became a Ph.D. candidate at Purdue University.',
+    'date': '2024/01/08'
+  },
+  {
     'title': 'I started my applied scientist internship position at the Twitch.',
-    'date': '2023/1/24'
-  },
-  {
-    'title': 'At CHI\'23, held in Hamburg, Germany, I presented our research on the contrasting ways in which groups of people and individuals interact with AI assistant tools.',
-    'date': '2023/4/25'
-  },
-  {
-    'title': 'I was awarded travel support by the Gary Marsden Travel Award.',
-    'date': '2023/4/9'
+    'date': '2023/06/01'
   },
 ]
 
@@ -80,8 +81,8 @@ export const jobs = [
     'positions': [
       {
         'title': 'Applied Scientist Intern',
-        'start_year': '2023 June',
-        'end_year': '2023 Aiugust',
+        'start_year': 'June 2023',
+        'end_year': 'August 2023',
         'duty': [
           'Crafted and implemented an innovative sequential-based collaborative filtering algorithm to optimize item recommendations for Twitch users, resulting in a notable 15% increase in precision.',
           'Performed in-depth competitive analysis, evaluating various training data sets and recommendation practices, facilitating data-driven decision-making and optimization of the recommendation algorithm.'
@@ -97,8 +98,8 @@ export const jobs = [
     'positions': [
       {
         'title': 'Research Intern',
-        'start_year': '2023 January',
-        'end_year': '2023 May',
+        'start_year': 'January 2023',
+        'end_year': 'May 2023',
         'duty': [
           'Synthesized a wide range of research studies to better understand how drivers feel when interacting with autonomous vehicles and what factors contribute to those emotions.',
           'Design and plan an experiment to investigate how to improve driver\'s collaboration with autonomous vehicles and other drivers to achieve optimal driving safety and performance.'
@@ -170,8 +171,8 @@ export const jobs = [
       },
       {
         'title': 'Research Assistant',
-        'start_year': '2017',
-        'end_year': '2019',
+        'start_year': 'January 2017',
+        'end_year': 'July 2019',
         'duty': [
           'Develop a budget supervision system through blockchain technology to encourage citizens involving in community development with local government.',
           'Design and implement a chrome plugin to train crowd workers to speed 31.6% up to their work.',
@@ -218,6 +219,22 @@ export const jobs = [
 
 export const papers = [
   {
+    'title': 'Enhancing AI-Assisted Group Decision Making through LLM-Powered Devil\'s Advocate',
+    'authors': ['Chun-Wei Chiang', 'Zhuoran Lu', 'Zhuoyan Li', 'Ming Yin'],
+    'abbreviation': 'IUI',
+    'full_publisher': 'Proceedings of the 29th International Conference on Intelligent User Interfaces',
+    'publish_year': '2024',
+    'href': 'Devils_Advocate.pdf',
+    'src': 'devil.png',
+    'areas': ['Human AI Interaction'],
+    'supplementary': [
+      {
+        'key': 'supplementary materials',
+        'href': 'Devils_Advocate_supplementary.pdf'
+      }
+    ]
+  },
+  {
     'title': 'Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment',
     'authors': ['Chun-Wei Chiang', 'Zhuoran Lu', 'Zhuoyan Li', 'Ming Yin'],
     'abbreviation': 'CHI',
@@ -225,7 +242,7 @@ export const papers = [
     'publish_year': '2023',
     'href': 'group-AI-interaction.pdf',
     'src': 'group-AI.png',
-    'areas': ['Human AI interaction', 'Bias in Machine learning', 'Group AI In Interaction', 'Human Computer Interaction'],
+    'areas': ['Human AI Interaction'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -241,7 +258,7 @@ export const papers = [
     'publish_year': '2023',
     'href': 'attack.pdf',
     'src': 'attack.png',
-    'areas': ['Human AI interaction', 'Adversarial Attacks']
+    'areas': ['Human AI Interaction']
   },
   {
     'title': 'Exploring the Effects of Machine Learning Literacy Interventions on Laypeople’s Reliance on Machine Learning Models',
@@ -251,7 +268,7 @@ export const papers = [
     'publish_year': '2022',
     'href': 'machine-learning-literacy.pdf',
     'src': 'online-learning.png',
-    'areas': ['Human AI Interaction', 'Bias in Machine learning', 'User training', 'Human Computer Interaction'],
+    'areas': ['Human AI Interaction'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -267,7 +284,7 @@ export const papers = [
     'publish_year': '2021',
     'href': 'better-stop.pdf',
     'src': 'stop.png',
-    'areas': ['Human AI Interaction', 'Human Computer Interaction', 'Bias in Machine learning']
+    'areas': ['Human AI Interaction']
   },
   {
     'title': 'Becoming the Super Turker: Increasing Wages via a Transparency Criteria from Skilled Workers',
@@ -277,7 +294,7 @@ export const papers = [
     'publish_year': '2020',
     'href': 'super-turker.pdf',
     'src': 'businessman.png',
-    'areas': ['Crowd worker welfare', 'User training']
+    'areas': ['Crowd worker welfare']
   },
   {
     'title': 'Predicting the Working Time of Microtasks Based on Workers\' Perception of Prediction Errors',
@@ -328,7 +345,7 @@ export const papers = [
     'publish_year': '2018',
     'href': 'crowdcoach.pdf',
     'src': 'together.png',
-    'areas': ['Crowd worker welfare', 'User training']
+    'areas': ['Crowd worker welfare']
   },
   {
     'title': 'Crowd Work on a CV? Understanding How AMT Fits into Turkers\' Career Goals and Professional Profiles',
@@ -364,7 +381,7 @@ export const papers = [
     'publish_year': '2017',
     'href': 'mobile-money.pdf',
     'src': 'migra.png',
-    'areas': ['Human Computer Interaction'] 
+    'areas': ['User Inbterface Design'] 
   },
 ]
 

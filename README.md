@@ -15,10 +15,12 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compile and Minify for Production and upload to Github
 
 ```sh
 npm run build
+git add . && git commit -m 'commit reason'
+git subtree push --prefix dist origin gh-pages
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
