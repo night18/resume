@@ -4,7 +4,7 @@
     src="@/assets/me/me.jpg"
     width="250"
   />
-  <h1 class="en_name name">Chun-Wei Chiang</h1>
+  <h1 class="en_name name">Chun-Wei (Patrick) Chiang</h1>
   <h1 class="zh_name name">江俊緯</h1>
   <h2 class="title">
     Ph.D. Student <br>

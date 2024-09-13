@@ -23,7 +23,7 @@ export const degrees = [
     'major': 'Computer Science',
     'location': 'West Lafayette, IN',
     'start_year': '2020',
-    'end_year': '2024 (Expected)',
+    'end_year': 'Spring 2025',
     'src': 'Purdue.png'
   },
   {
