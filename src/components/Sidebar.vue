@@ -5,19 +5,18 @@
     width="250"
   />
   <h1 class="en_name name">Chun-Wei (Patrick) Chiang</h1>
-  <h1 class="zh_name name">江俊緯</h1>
   <h2 class="title">
-    Ph.D. Student <br>
+    Ph.D. Candidate <br>
     at Purdue University
   </h2>
   <div class="contact-info">
     <p>
       <font-awesome-icon icon="fa-solid fa-paper-plane" class="bigger_icon"/>
-      <a href="mailto:chiang@chunwei.org">chiang@chunwei.org</a>
+      <a href="mailto:chunwei.p.chiang@gmail.com">chunwei.p.chiang@gmail.com</a>
     </p>
     <p>
       <font-awesome-icon icon="fa-solid fa-download" class="bigger_icon"/>
-      <a href="ChunWeiResume.pdf" target="_blank" download>Résumé</a>
+      <a href="ChunWeiResume.pdf" target="_blank">Résumé</a>
     </p>
     <ul class="head-social">
       <li v-for="site in social">
