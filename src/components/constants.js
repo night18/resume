@@ -1,7 +1,18 @@
 /* eslint-disable prettier/prettier */
-export const update_date = "May 21, 2024"
-
+export const update_date = "Jan 14, 2025"
+export const name = "Chun-Wei Chiang"
+export const email = "chunwei.p.chiang@gmail.com"
+export const resume_url = "ChunWeiResume.pdf"
+export const social_media = {
+  "linkedin": "https://www.linkedin.com/in/chun-wei-chiang/",
+  "github": "https://github.com/night18",
+  "gscholar": "https://scholar.google.com/citations?user=8Z6Z9ZkAAAAJ&hl=en",
+}
 export const news = [
+  {
+    'title': 'Awarded Special Recognition for Outstanding Reviews for CHI 2025, acknowledging exceptional contributions to the peer review process and commitment to advancing HCI research.',
+    'date': '2025/12/30'
+  },
   {
     'title': 'At IUI\'24, held in Greenville, SC, I presented our research on using Large Language Models to help groups better utilize AI assistance.',
     'date': '2024/03/19'
@@ -9,11 +20,7 @@ export const news = [
   {
     'title': 'I passed the Ph.D. preliminary exam and became a Ph.D. candidate at Purdue University.',
     'date': '2024/01/08'
-  },
-  {
-    'title': 'I started my applied scientist internship position at the Twitch.',
-    'date': '2023/06/01'
-  },
+  }
 ]
 
 export const degrees = [
@@ -226,7 +233,7 @@ export const papers = [
     'publish_year': '2024',
     'href': 'Devils_Advocate.pdf',
     'src': 'devil.png',
-    'areas': ['Human AI Interaction'],
+    'areas': ['Human AI Interaction', 'Applied Machine Learning'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -242,7 +249,7 @@ export const papers = [
     'publish_year': '2023',
     'href': 'group-AI-interaction.pdf',
     'src': 'group-AI.png',
-    'areas': ['Human AI Interaction'],
+    'areas': ['Human AI Interaction', 'Applied Machine Learning'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -258,7 +265,7 @@ export const papers = [
     'publish_year': '2023',
     'href': 'attack.pdf',
     'src': 'attack.png',
-    'areas': ['Human AI Interaction']
+    'areas': ['Human AI Interaction', 'Applied Machine Learning']
   },
   {
     'title': 'Exploring the Effects of Machine Learning Literacy Interventions on Laypeople’s Reliance on Machine Learning Models',
@@ -268,7 +275,7 @@ export const papers = [
     'publish_year': '2022',
     'href': 'machine-learning-literacy.pdf',
     'src': 'online-learning.png',
-    'areas': ['Human AI Interaction'],
+    'areas': ['Human AI Interaction', 'Applied Machine Learning'],
     'supplementary': [
       {
         'key': 'supplementary materials',
@@ -284,7 +291,7 @@ export const papers = [
     'publish_year': '2021',
     'href': 'better-stop.pdf',
     'src': 'stop.png',
-    'areas': ['Human AI Interaction']
+    'areas': ['Human AI Interaction', 'Applied Machine Learning']
   },
   {
     'title': 'Becoming the Super Turker: Increasing Wages via a Transparency Criteria from Skilled Workers',
@@ -294,7 +301,7 @@ export const papers = [
     'publish_year': '2020',
     'href': 'super-turker.pdf',
     'src': 'businessman.png',
-    'areas': ['Crowd worker welfare']
+    'areas': ['Crowd worker Welfare']
   },
   {
     'title': 'Predicting the Working Time of Microtasks Based on Workers\' Perception of Prediction Errors',
@@ -304,7 +311,7 @@ export const papers = [
     'publish_year': '2019',
     'href': 'predicting-work-time.pdf',
     'src': 'process.png',
-    'areas': ['Crowd worker welfare']
+    'areas': ['Crowd worker Welfare', 'Applied Machine Learning']
   },
   {
     'title': 'TurkScanner: Predicting the Hourly Wage of Microtasks',
@@ -314,7 +321,7 @@ export const papers = [
     'publish_year': '2019',
     'href': 'turkScanner.pdf',
     'src': 'search.png',
-    'areas': ['Crowd worker welfare'],
+    'areas': ['Crowd worker Welfare', 'Applied Machine Learning'],
     'note': 'Best Poster Honourable Mention (0.8%)'
   },
   {
@@ -335,7 +342,7 @@ export const papers = [
     'publish_year': '2019',
     'href': 'turker-tale.pdf',
     'src': 'script.png',
-    'areas': ['Crowd worker welfare']
+    'areas': ['Crowd worker Welfare']
   },
   {
     'title': 'Crowd Coach: Peer Coaching for Crowd Workers\' Skill Growth',
@@ -345,7 +352,7 @@ export const papers = [
     'publish_year': '2018',
     'href': 'crowdcoach.pdf',
     'src': 'together.png',
-    'areas': ['Crowd worker welfare']
+    'areas': ['Crowd worker Welfare']
   },
   {
     'title': 'Crowd Work on a CV? Understanding How AMT Fits into Turkers\' Career Goals and Professional Profiles',
@@ -355,7 +362,7 @@ export const papers = [
     'publish_year': '2018',
     'href': 'crowd-work-cv.pdf',
     'src': 'curriculum.png',
-    'areas': ['Crowd worker welfare'],
+    'areas': ['Crowd worker Welfare'],
     'supplementary': [
       {
         'key': 'Poster',
@@ -381,7 +388,13 @@ export const papers = [
     'publish_year': '2017',
     'href': 'mobile-money.pdf',
     'src': 'migra.png',
-    'areas': ['User Inbterface Design'] 
+    'areas': ['User Interface'] 
   },
 ]
 
+export const projects = [
+  {
+    'title': 'Wildfire Visualization', 
+    'description': 'Designed and executed'
+  }
+]

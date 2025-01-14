@@ -1,7 +1,7 @@
 <template>
   <p class="section-title">
     <font-awesome-icon icon="fa-solid fa-book"/>
-    <b>Publications </b>
+    <b> Publications </b>
   </p>
   <div>
     <ul>

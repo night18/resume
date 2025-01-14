@@ -8,6 +8,7 @@
       <b-navbar-nav class="align-right">
         <b-nav-item @click.prevent="go_home">Home</b-nav-item>
         <b-nav-item @click.prevent="go_publications">Publications</b-nav-item>
+        <!-- <b-nav-item @click.prevent="go_projects">Projects</b-nav-item> -->
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -20,10 +21,6 @@
 </template>
 <script setup>
 import Sidebar from "./components/Sidebar.vue";
-import AboutMe from "./components/AboutMe.vue";
-import Education from "./components/Education.vue";
-import Experience from "./components/Experience.vue";
-import ShortPublication from "./components/ShortPublication.vue";
 </script>
 <script>
 export default {
@@ -33,6 +30,9 @@ export default {
     },
     go_publications: function () {
       this.$router.push('/Publications');
+    },
+    go_projects: function () {
+      this.$router.push('/projects');
     },
   },
   watch: {
