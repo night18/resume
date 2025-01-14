@@ -2,6 +2,13 @@
 
 Try to transfer my old resume website from vanilla html to vue 3
 
+## Prerequist
+
+* Node.js
+If you have not installed Node.js, please go to [Node.js](https://nodejs.org/en/download/package-manager)
+
+
+
 
 ## Project Setup
 
