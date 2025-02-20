@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-export const update_date = "May 21, 2024"
+export const update_date = "Feb 20, 2025"
 
 export const news = [
   {
@@ -75,9 +75,9 @@ export const jobs = [
     ]
   },
   {
-    'name': 'Twitch',
+    'name': 'Amazon',
     'location': 'San Francisco, CA',
-    'src': 'twitch.png',
+    'src': 'Amazon_icon.png',
     'positions': [
       {
         'title': 'Applied Scientist Intern',
