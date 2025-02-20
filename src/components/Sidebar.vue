@@ -4,19 +4,19 @@
     src="@/assets/me/me.jpg"
     width="250"
   />
-  <h1 class="en_name name">Chun-Wei (Patrick) Chiang</h1>
+  <h1 class="en_name name">{{ name }}</h1>
   <h2 class="title">
-    Ph.D. Candidate <br>
-    at Purdue University
+    {{ highest_degree.level }} Candidate in {{ highest_degree.major }} <br>
+    at {{ highest_degree.name }}
   </h2>
   <div class="contact-info">
     <p>
       <font-awesome-icon icon="fa-solid fa-paper-plane" class="bigger_icon"/>
-      <a href="mailto:chunwei.p.chiang@gmail.com">chunwei.p.chiang@gmail.com</a>
+      <a href="mailto:{{ email }}">{{ email }}</a>
     </p>
     <p>
       <font-awesome-icon icon="fa-solid fa-download" class="bigger_icon"/>
-      <a href="ChunWeiResume.pdf" target="_blank">Résumé</a>
+      <a href="{{ resume_url }}" target="_blank">Résumé</a>
     </p>
     <ul class="head-social">
       <li v-for="site in social">
@@ -37,29 +37,33 @@
   </p>
 </template>
 <script >
-import { update_date } from '@/components/constants'
+import { name, update_date, degrees, email, resume_url, social_media } from '@/components/constants'
 export default {
   data: function () {
     return {
       update_date: update_date,
+      name: name,
+      highest_degree: degrees[0],
+      email: email,
+      resume_url: resume_url,
       social: [
         {
           'name': 'LinkedIn',
-          'url': 'https://www.linkedin.com/in/chiang-chun-wei/',
+          'url': social_media.linkedin,
           'class': 'fa-linkedin',
           'icon': 'fa-brands fa-linkedin',
           'fontawesom': true
         },
         {
           'name': 'Github',
-          'url': 'https://github.com/night18',
+          'url': social_media.github,
           'class': 'fa-github',
           'icon': 'fa-brands fa-github',
           'fontawesom': true
         },
         {
           'name': 'Google Scholar',
-          'url': 'https://scholar.google.com/citations?user=jErIu9UAAAAJ&hl=en',
+          'url': social_media.gscholar,
           'class': 'fa-gscholar',
           'icon': '/scholar.svg',
           'fontawesom': false
