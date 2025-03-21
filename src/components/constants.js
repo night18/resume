@@ -4,9 +4,9 @@ export const name = "Chun-Wei Chiang"
 export const email = "chunwei.p.chiang@gmail.com"
 export const resume_url = "ChunWeiResume.pdf"
 export const social_media = {
-  "linkedin": "https://www.linkedin.com/in/chun-wei-chiang/",
+  "linkedin": "https://www.linkedin.com/in/chiang-chun-wei/",
   "github": "https://github.com/night18",
-  "gscholar": "https://scholar.google.com/citations?user=8Z6Z9ZkAAAAJ&hl=en",
+  "gscholar": "https://scholar.google.com/citations?user=jErIu9UAAAAJ&hl=en",
 }
 export const news = [
   {

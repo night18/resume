@@ -12,11 +12,11 @@
   <div class="contact-info">
     <p>
       <font-awesome-icon icon="fa-solid fa-paper-plane" class="bigger_icon"/>
-      <a href="mailto:{{ email }}">{{ email }}</a>
+      <a :href="'mailto:' + email">{{ email }}</a>
     </p>
     <p>
       <font-awesome-icon icon="fa-solid fa-download" class="bigger_icon"/>
-      <a href="{{ resume_url }}" target="_blank">Résumé</a>
+      <a :href="resume_url" target="_blank">Résumé</a>
     </p>
     <ul class="head-social">
       <li v-for="site in social">
