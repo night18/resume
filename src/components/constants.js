@@ -10,8 +10,12 @@ export const social_media = {
 }
 export const news = [
   {
+    'title': 'Awarded Special Recognition for Outstanding Reviews for CSCW 2025 October Cycle, acknowledging exceptional contributions to the peer review process and commitment to advancing CSCW research.',
+    'date': '2025/3/21'
+  },
+  {
     'title': 'Awarded Special Recognition for Outstanding Reviews for CHI 2025, acknowledging exceptional contributions to the peer review process and commitment to advancing HCI research.',
-    'date': '2025/12/30'
+    'date': '2024/12/30'
   },
   {
     'title': 'At IUI\'24, held in Greenville, SC, I presented our research on using Large Language Models to help groups better utilize AI assistance.',
